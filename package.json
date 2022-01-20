@@ -1,7 +1,6 @@
 {
   "name": "desafio7sassmatias-coronel",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,6 @@
   "bugs": {
     "url": "https://github.com/MatiasCoronel1312/Aplicando_SASS/issues"
   },
-  "homepage": "https://github.com/MatiasCoronel1312/Aplicando_SASS#readme"
+  "homepage": "https://github.com/MatiasCoronel1312/Aplicando_SASS#readme",
+  "description": ""
 }
