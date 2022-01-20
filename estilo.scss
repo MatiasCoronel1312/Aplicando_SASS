@@ -1,5 +1,6 @@
 @import "reseteo.scss";
 
+/*---------------version mobile---------------*/
 @media (max-width: 768px) {
 
 header {
@@ -91,6 +92,7 @@ footer {
     }
 }
 }
+/*---------------------------version tablet-----------------------*/
 
 @media (min-width: 768px) {
     header {
@@ -178,11 +180,12 @@ footer {
         padding: 0.8rem;
         div {
             border: black solid 0.5rem;
-            padding: 1.8rem 3rem;
+            padding: 1.8rem;
         }
     }
     }
 
+    /*-------------------------version destop----------------------*/
     @media (min-width: 992px) {
         header {
             background-color: rgb(207,100,154);
@@ -262,14 +265,14 @@ footer {
         }
         
         
-        // footer {
-        //     background-color: rgb(207,100,154);
-        //     display: flex;
-        //     justify-content: space-around;
-        //     padding: 0.8rem;
-        //     div {
-        //         border: black solid 0.5rem;
-        //         padding: 1.8rem;
-        //     }
-        // }
-         }
+        footer {
+            background-color: rgb(207,100,154);
+            display: flex;
+            justify-content: space-around;
+            padding: 0.8rem;
+            div {
+                border: black solid 0.5rem;
+                padding: 1.8rem;
+            }
+        }
+        }

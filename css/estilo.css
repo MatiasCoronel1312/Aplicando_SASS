@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+/*---------------version mobile---------------*/
 @media (max-width: 768px) {
   header {
     background-color: #cf649a;
@@ -68,6 +69,7 @@
   }
 }
 
+/*---------------------------version tablet-----------------------*/
 @media (min-width: 768px) {
   header {
     background-color: #cf649a;
@@ -128,10 +130,11 @@
   }
   footer div {
     border: black solid 0.5rem;
-    padding: 1.8rem 3rem;
+    padding: 1.8rem;
   }
 }
 
+/*-------------------------version destop----------------------*/
 @media (min-width: 992px) {
   header {
     background-color: #cf649a;
@@ -183,6 +186,16 @@
     color: blueviolet;
     font-size: 1.8rem;
     line-height: 2.3rem;
+  }
+  footer {
+    background-color: #cf649a;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.8rem;
+  }
+  footer div {
+    border: black solid 0.5rem;
+    padding: 1.8rem;
   }
 }
 /*# sourceMappingURL=estilo.css.map */
